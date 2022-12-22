@@ -1,0 +1,163 @@
+.banner,main{
+    margin: 0px 100px;
+}
+.banner{
+    width: 1321px;
+    height: 646px;
+    background: #161616;
+    border-radius: 30px;
+    display: flex;
+}
+.banner-text{
+    color:rgb(255, 255, 255);
+    height: 424px;
+    width: 531px;
+    border-radius: 5px;
+    margin-top: 111px;
+    margin-bottom: 111px;
+    margin-left: 106px;
+    margin-right: 24px;
+}
+h1{
+    font-size:68px;
+    padding-bottom: 15px;  
+}
+button{
+    background-color: rgb(190, 27, 27);
+    border-radius: 5px;
+    border: none;
+    color: white;
+    font-size: 15px;
+    padding: 8px;
+}
+img{
+    width: 581px;
+    height: 613px;
+    margin-top: 33px;
+    margin-right: 79px;
+}
+.schedule{
+    margin-top: 130px;
+    margin-bottom: 130px;
+    display: flex;
+    gap: 24px;
+}
+.menu{
+  height: 312px;
+  width: 312px;
+  border-radius: 10px;
+  background-color: #161616;
+  color: aliceblue;
+}
+
+.menu-box{
+    height: 252px;
+    width: 252px;
+    padding: 30px;
+}
+ul li{
+    list-style-type:none;
+    padding: 18px;
+    margin: 18px;
+    border-radius: 10px;
+    text-align: center;
+    font-weight: 700;
+}
+ul li a{
+    text-decoration: none;
+    color: black;
+}
+.marked{
+    background-color: rgb(190, 27, 27);
+}
+.unmarked{
+    background-color: white;
+    color: black;
+}
+.matches{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 24px;
+    text-align: center;
+}
+.match{
+    height: 242px;
+    width: 312px;
+    border: 2px solid rgb(146, 145, 145);
+    border-radius: 12px;
+    padding-top: 52px ;
+    /* padding-bottom: 52px ;     */
+}
+h5{
+    font-size: 20px;
+}
+.match img{
+    height: 55px;
+    width: 100px;
+    margin: 15px;
+}
+.flag{
+    display: flex;
+    justify-content: center;
+}
+.time{
+    color: #2e2c2c;
+}
+footer{
+    width:1540px;
+    height: 444px;
+    background-color: #161616;
+}
+footer h2{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    padding-top: 130px ;
+    padding-left: 753px;
+    padding-bottom: 50px;
+    padding-right: 752px;
+}
+hr{
+   width: 1320px; 
+}
+.footer-menu ul{
+    display: flex;
+    justify-content: space-around;
+    color: rgb(157, 158, 159);
+    font-size: 24px;
+}
+
+
+
+/* ------------------bloooooogs------- */
+.blogs{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 24px;
+}
+.blog{
+    width: 312px;
+height: 362px;
+border: 2px solid rgb(105, 104, 104);
+border-top: none;
+border-radius: 10px;
+}
+.blog-image img{
+    width: 313px;
+    height: 162px;
+    margin: 0;
+    padding: 0;
+}
+.blog-text{
+    margin-left: 22px;
+}
+.transf{
+    border: 1px solid black;
+    width: 105px;
+
+    text-align: center;
+    border-radius: 4px;
+
+}
+.blog h4{
+    font-size: 22px;
+}
